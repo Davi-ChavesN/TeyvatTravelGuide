@@ -1,0 +1,186 @@
+body{
+    background-image: url("/assets/Background_home.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Dancing Script';
+}
+
+.char_bkg{
+    background-image: url(/assets/Character_background.png);
+}
+
+.mond_bkg{
+    background-image: url(/assets/Mondstadt_background.png);
+}
+
+.liyue_bkg{
+    background-image: url(/assets/Liyue_background.png);
+}
+
+.inazuma_bkg{
+    background-image: url(/assets/Inazuma_background.png);
+}
+
+.sumeru_bkg{
+    background-image: url(/assets/Sumeru_background.png);
+}
+
+.city{
+    padding: 20px;
+    font-size: 25px;
+}
+
+.city .city-img{
+    width: 50%;
+    border-radius: 30px;
+}
+
+b{
+    font-weight: bold;
+}
+
+h2:first-letter{
+    font-style: italic;
+}
+
+h2::first-line{
+    font-weight: bold;
+}
+
+.cabeçalho{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px 0px;
+}
+
+.sumario{
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.sumario>p{
+    margin-bottom: 10px;
+}
+
+.sumario>h2{
+    margin-bottom: 25px;
+}
+
+.reg{
+    display: inline-table;
+    padding: 5px;
+}
+
+.reg .reg-item{
+    width: 20%;
+}
+
+.chars{
+    display: inline-table;
+    padding: 5px;
+}
+
+.chars .chars-item{
+    width: 20%;
+}
+
+.chars .chars-item:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.histcard{
+    display: flex;
+    padding: 15px;
+    overflow-x: auto;
+    white-space: nowrap;
+    gap: 10px;
+}
+
+.home{
+    width: 60%;
+    display: flex;
+    border-radius: 30px;
+    overflow: hidden;
+    float:left;
+    margin-right: 15px;
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+}
+
+.menu .menu-item{
+    display: inline-block;
+    padding: 20px;
+    font-size: 25px;
+    user-select: none;
+    transition: color 0.5s, transform 0.1s;
+}
+
+a:link, a:visited{
+    color: black;
+}
+
+.menu .menu-item:hover{
+    cursor: pointer;
+    color: purple;
+    transform: scale(1.1);
+}
+
+form{
+    background-color: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+input{
+    font: 40px;
+    color: #000;
+    height: 10%;
+    width: 100%;
+    padding: 6px 10px;
+}
+
+::placeholder{
+    color: #000;
+    opacity: 0.7;
+    font-weight: bold;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.rodape{
+    position: sticky;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
+  
+  svg {
+    color: #000;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+  }
