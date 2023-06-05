@@ -1,5 +1,5 @@
 body{
-    background-image: url(/assets/Background_home.png);
+    background-image: url("./assets/Background_home.png");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -9,23 +9,23 @@ body{
 }
 
 .char_bkg{
-    background-image: url(/assets/Character_background.png);
+    background-image: url("./assets/Character_background.png");
 }
 
 .mond_bkg{
-    background-image: url(/assets/Mondstadt_background.png);
+    background-image: url("./assets/Mondstadt_background.png");
 }
 
 .liyue_bkg{
-    background-image: url(/assets/Liyue_background.png);
+    background-image: url("./assets/Liyue_background.png");
 }
 
 .inazuma_bkg{
-    background-image: url(/assets/Inazuma_background.png);
+    background-image: url("./assets/Inazuma_background.png");
 }
 
 .sumeru_bkg{
-    background-image: url(/assets/Sumeru_background.png);
+    background-image: url("./assets/Sumeru_background.png");
 }
 
 .city{
