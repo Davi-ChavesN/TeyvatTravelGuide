@@ -1,5 +1,5 @@
 body{
-    background-image: url(/assets/Background_home.png);
+    background-image: url("/assets/Background_home.png");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -10,6 +10,10 @@ body{
 
 .char_bkg{
     background-image: url(/assets/Character_background.png);
+}
+
+.hist_bkg{
+    background-image: url(/assets/login_screen.png);
 }
 
 .mond_bkg{
@@ -30,12 +34,31 @@ body{
 
 .city{
     padding: 20px;
+    text-align: center;
     font-size: 25px;
+}
+
+.city .city-text{
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.city-text>p{
+    margin-bottom: 10px;
+}
+
+.city-text>h2{
+    margin-bottom: 25px;
 }
 
 .city .city-img{
     width: 50%;
+    display: flex;
     border-radius: 30px;
+    overflow: hidden;
+    float:left;
+    margin-right: 15px;
 }
 
 b{
@@ -55,6 +78,7 @@ h2::first-line{
     text-align: center;
     font-weight: bold;
     padding: 15px 0px;
+    text-shadow: 2px 2px #FFFFFF;
 }
 
 .sumario{
@@ -72,26 +96,63 @@ h2::first-line{
 }
 
 .reg{
+    text-align: center;
     display: inline-table;
     padding: 5px;
 }
 
 .reg .reg-item{
     width: 20%;
+    transition: 400ms;
+}
+
+.reg .reg-item:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .chars{
+    text-align: center;
     display: inline-table;
-    padding: 5px;
+    padding: 0% 3%;
 }
 
 .chars .chars-item{
     width: 20%;
+    transition: 400ms;
 }
 
 .chars .chars-item:hover{
     cursor: pointer;
     transform: scale(1.1);
+}
+
+.char-box{
+    display: flex;
+    flex-direction: row-reverse;
+    float: right;
+    padding-left: 15px;
+    overflow: hidden;
+}
+
+.char-box .char-card{
+    width: 230px;
+}
+
+.char-box .char-text{
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.char-text>h2{
+    text-align: justify;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.char-text>p{
+    text-align: justify;
+    font-size: 25px;
 }
 
 .histcard{
@@ -100,6 +161,45 @@ h2::first-line{
     overflow-x: auto;
     white-space: nowrap;
     gap: 10px;
+}
+
+.histcard .histcard-item{
+    transition: 400ms;
+}
+
+.histcard .histcard-item:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.hist-box{
+    display: flex;
+    flex-direction: row-reverse;
+    float: right;
+    padding-left: 15px;
+    overflow: hidden;
+}
+
+.hist-box .hist-card{
+    width: 230px;
+}
+
+.hist-box .hist-text{
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.hist-text>h2{
+    text-align: justify;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hist-text>p{
+    text-align: justify;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .home{
@@ -163,7 +263,9 @@ nav a{
 }
 
 .rodape{
-    position: sticky;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
     width: 100%;
     height: 100px;
     text-align: center;

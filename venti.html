@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="char_bkg">
     <header>
         <div>
             <h1 class="cabeçalho"><b>Teyvat Travel Guide</b></h1>
@@ -20,8 +20,8 @@
             <ul class="menu">
                 <li class="menu-item"><a href="index.html">Início</a></li>
                 <li class="menu-item"><a href="historia.html">História</a></li>
-                <li class="menu-item"><a href="regioes.html"><b>Regiôes</b></a></li>
-                <li class="menu-item"><a href="personagens.html">Personagens</a></li>
+                <li class="menu-item"><a href="regioes.html">Regiôes</a></li>
+                <li class="menu-item"><a href="personagens.html"><b>Personagens</b></a></li>
                 <form id="form">
                     <input class="searchbox" type="search" 
                         id="query" name="q" placeholder="Search"
@@ -35,11 +35,19 @@
     </header>
 
     <main>
-        <div class="reg">
-            <a href="mondstadt.html"><img src="/assets/Emblema_Mondstadt.png" class="reg-item"></a>
-            <a href="liyue.html"><img src="/assets/Emblema_Liyue.png" class="reg-item"></a>
-            <a href="inazuma.html"><img src="/assets/Emblema_Inazuma.png" class="reg-item"></a>
-            <a href="sumeru.html"><img src="/assets/Emblem_Sumeru.png" class="reg-item"></a>
+        <div class="char-box">
+            <a href="personagens.html"><img src="/assets/venti_card.png" class="char-card"></a>
+            <div class="char-text">
+                <h2>Venti</h2>
+                <p>
+                    Um bardo desconhecido que apareceu do nada. Às vezes, ele canta músicas 
+                    desatualizadas, mas também novas, das quais ninguém nunca ouviu falar.
+                    Ele gosta de maçãs e um ambiente alegre, mas odeia queijo e qualquer coisa 
+                    viscosa.
+                    Ao canalizar elementos Anemo, ele geralmente detêm a forma estendendo longas 
+                    plumas, simplesmente porque ele gosta de coisas que parecem leves.
+                </p>
+            </div>
         </div>
     </main>
 
