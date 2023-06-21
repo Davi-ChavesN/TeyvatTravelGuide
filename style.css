@@ -32,7 +32,7 @@ body{
     background-image: url(/assets/Sumeru_background.png);
 }
 
-.city{
+/*.city{
     padding: 20px;
     text-align: center;
     font-size: 25px;
@@ -53,13 +53,15 @@ body{
 }
 
 .city .city-img{
+    padding-left: 20px;
+    padding-top: 20px;
     width: 50%;
     display: flex;
-    border-radius: 30px;
+    border-radius: 35px;
     overflow: hidden;
     float:left;
     margin-right: 15px;
-}
+}*/
 
 b{
     font-weight: bold;
@@ -286,3 +288,33 @@ button {
     height: 24px;
     padding: 10px;
   }
+
+.char_vid{
+    display: none;
+    
+  }
+
+.city{
+    display: block;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.city>p{
+    margin-bottom: 10px;
+}
+
+.city>h2{
+    padding-top: 25px;
+    margin-bottom: 25px;
+}
+
+.city-img{
+    width: 60%;
+    display: flex;
+    border-radius: 30px;
+    overflow: hidden;
+    float:left;
+    margin-right: 15px;
+}
