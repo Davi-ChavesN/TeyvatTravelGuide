@@ -7,6 +7,7 @@
     <title>Teyvat Travel Guide</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_mobile.css">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 </head>
 
@@ -22,7 +23,7 @@
                 <li class="menu-item"><a href="historia.html">História</a></li>
                 <li class="menu-item"><a href="regioes.html">Regiôes</a></li>
                 <li class="menu-item"><a href="personagens.html"><b>Personagens</b></a></li>
-                <form id="form">
+                <form class="formulario">
                     <input class="searchbox" type="search" 
                         id="query" name="q" placeholder="Search"
                         aria-label="Search through site content">
@@ -35,6 +36,9 @@
     </header>
 
     <main>
+        <video controls loop autoplay muted class="char_vid">
+            <source src="/assets/raiden_burst.mp4">
+        </video>
         <div class="char-box">
             <a href="personagens.html"><img src="/assets/raiden_card.png" class="char-card"></a>
             <div class="char-text">

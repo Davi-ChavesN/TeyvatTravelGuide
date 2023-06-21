@@ -7,6 +7,7 @@
     <title>Teyvat Travel Guide</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_mobile.css">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 </head>
 
@@ -22,7 +23,7 @@
                 <li class="menu-item"><a href="historia.html">História</a></li>
                 <li class="menu-item"><a href="regioes.html"><b>Regiôes</b></a></li>
                 <li class="menu-item"><a href="personagens.html">Personagens</a></li>
-                <form id="form">
+                <form class="formulario">
                     <input class="searchbox" type="search" 
                         id="query" name="q" placeholder="Search"
                         aria-label="Search through site content">
@@ -32,21 +33,24 @@
                 </form>
             </ul>
         </nav>
-
-        <div class="city">
-            <img src="/assets/Liyue_view.png" class="city-img">
-            <div class="city-text">
-                <h2>Liyue</h2>
-                <p>Um porto próspero localizado ao leste de Teyvat.</p>
-                <p>Liyue está localizada entre o sopé da Floresta de Pedra, das 
-                    planícies grossas e um litoral cheio de vida, com mudanças sazonais 
-                    claramente definidas e coloridas. Quantos presentes do Deus da 
-                    Pedra estão escondidas entre suas montanhas?</p>
-                <p>Liyue é uma das sete nações de Teyvat. É a cidade-estado 
-                    que venera Morax, o Arconte Geo.</p>
-            </div>
-        </div>
     </header>
+
+    <main>
+        <div class="city">
+            <div>
+                <img src="/assets/Liyue_view.png" class="city-img">
+            </div>
+            <h2>Liyue</h2>
+            <p>Um porto próspero localizado ao leste de Teyvat.</p>
+            <p>Liyue está localizada entre o sopé da Floresta de Pedra, das 
+                planícies grossas e um litoral cheio de vida, com mudanças sazonais 
+                claramente definidas e coloridas. Quantos presentes do Deus da 
+                Pedra estão escondidas entre suas montanhas?</p>
+            <p>Liyue é uma das sete nações de Teyvat. É a cidade-estado 
+                que venera Morax, o Arconte Geo.</p>
+        </div>
+    </main>
+    
 
     <footer>
         <h2 class="rodape">Copyright© Davi</h2>

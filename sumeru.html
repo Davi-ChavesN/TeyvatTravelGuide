@@ -7,6 +7,7 @@
     <title>Teyvat Travel Guide</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_mobile.css">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 </head>
 
@@ -22,7 +23,7 @@
                 <li class="menu-item"><a href="historia.html">História</a></li>
                 <li class="menu-item"><a href="regioes.html"><b>Regiôes</b></a></li>
                 <li class="menu-item"><a href="personagens.html">Personagens</a></li>
-                <form id="form">
+                <form class="formulario">
                     <input class="searchbox" type="search" 
                         id="query" name="q" placeholder="Search"
                         aria-label="Search through site content">
@@ -32,23 +33,25 @@
                 </form>
             </ul>
         </nav>
-
-        <div class="city">
-            <img src="/assets/Sumeru_view.png" class="city-img">
-            <div class="city-text">
-                <h2>Sumeru</h2>
-                <p>Capital da cidade dos Eruditos localizada no oeste de Teyvat.</p>
-                <p>Uma nação exótica com florestas tropicais exuberantes e desertos áridos 
-                    coexistindo simultaneamente, onde inumeros frutos da sabedoria crescem e 
-                    murcham. Seja atravessando as florestas até os degraus da Cidade dos 
-                    Eruditos ou cavando as ruínas nos confins do deserto, Viajantes de longe 
-                    poderão obter conhecimentos valiosos aqui.</p>
-                <p>Sumeru é uma das sete nações de Teyvat. É a nação que venera o Deus da Sabedoria, 
-                    Lorde Menor Kusanali. É reconhecida como centro do aprendizado acadêmico e 
-                    abriga a Academia de Sumeru.</p>
-            </div>
-        </div>
     </header>
+
+    <main>
+        <div class="city">
+            <div>
+                <img src="/assets/Sumeru_view.png" class="city-img">
+            </div>
+            <h2>Sumeru</h2>
+            <p>Capital da cidade dos Eruditos localizada no oeste de Teyvat.</p>
+            <p>Uma nação exótica com florestas tropicais exuberantes e desertos áridos 
+                coexistindo simultaneamente, onde inumeros frutos da sabedoria crescem e 
+                murcham. Seja atravessando as florestas até os degraus da Cidade dos 
+                Eruditos ou cavando as ruínas nos confins do deserto, Viajantes de longe 
+                poderão obter conhecimentos valiosos aqui.</p>
+            <p>Sumeru é uma das sete nações de Teyvat. É a nação que venera o Deus da Sabedoria, 
+                Lorde Menor Kusanali. É reconhecida como centro do aprendizado acadêmico e 
+                abriga a Academia de Sumeru.</p>
+        </div>
+    </main>
 
     <footer>
         <h2 class="rodape">Copyright© Davi</h2>
