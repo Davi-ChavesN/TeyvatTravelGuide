@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teyvat Travel Guide</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_mobile.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+
+<body class="info">
+    <header>
+        <div>
+            <h1 class="cabeçalho"><b>Teyvat Travel Guide</b></h1>
+        </div>
+
+        <nav>
+            <ul class="menu">
+                <li class="menu-item"><a href="index.html">Início</a></li>
+                <li class="menu-item"><a href="historia.html">História</a></li>
+                <li class="menu-item"><a href="regioes.html">Regiôes</a></li>
+                <li class="menu-item"><a href="personagens.html">Personagens</a></li>
+                <form class="formulario">
+                    <input class="searchbox" type="search" 
+                        id="query" name="q" placeholder="Search"
+                        aria-label="Search through site content">
+                    <button>
+                        <img src="/assets/lupa.svg" alt="imagem de uma lupa">
+                    </button>
+                </form>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="mapa">
+            <p>Sede da miHoYo no Japão</p>
+            <section class="map_responsive">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d810.4791568071606!2d139.70100808617107!3d35.6544257!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ba991ccc471%3A0x272096440c11cd92!2z5qCq5byP5Lya56S-bWlIb1lv!5e0!3m2!1spt-BR!2sbr!4v1688413556986!5m2!1spt-BR!2sbr" 
+                width="600" height="450" style="border:0;" allowfullscreen="" 
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </section>
+        </div>
+
+        <form class="form-test">
+            <div class="input1">
+                <label for="nomesobrenome">Nome e sobrenome</label>
+                <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com.br">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+            </div>
+
+            <fieldset class="conjunto">
+                <legend>Como prefere o nosso contato?</legend>
+
+                <input type="radio" name="contato" value="email" id="radio-email"> Email<br>
+                
+                <input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone<br>
+                
+                <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> Whatsapp<br>
+
+                <p class="certeza">Tem certeza que não prefere whatsapp?</p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Qual horário prefere ser atendido?</legend>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </fieldset>
+            <br>
+            
+            <label class="checkbox><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+
+            <input type="submit" value="Enviar formulario" class="enviar">
+
+            <table class="tabela">
+                <thead>
+                    <tr>
+                        <td>Dias</td>
+                        <td>Horários</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Segunda</td>
+                        <td>8h - 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta</td>
+                        <td>8h - 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta</td>
+                        <td>8h - 20h</td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </main>
+
+    <footer>
+        <h2 class="rodape">Copyright© Davi</h2>
+        <a href="info.html"><h2 class="rodape">Mais Informações</h2></a>
+    </footer>
+</body>
+
+</html>

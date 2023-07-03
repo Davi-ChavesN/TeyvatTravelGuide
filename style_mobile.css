@@ -10,6 +10,7 @@
         width: 300px;
         height: 200px;
     }
+
     .home{
         width: 100%;
         border-radius: 35px;
@@ -34,5 +35,12 @@
     }
     .hist-text>h2{
         text-align: center;
+    }
+
+
+
+    .map_responsive iframe{
+        overflow: hidden;
+        width: 100%;
     }
 }
